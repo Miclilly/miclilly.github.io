@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 h1 {
@@ -43,7 +43,7 @@ nav {
 nav ul {
   list-style-type: none;
   display: inline-block;
-/*  position:relative; */
+  /*position:relative;*/
 
 }
 
@@ -58,7 +58,7 @@ nav ul ul {
 li {
   display:inline-block;
   margin: 45px;
-/*  position:relative; */
+  position:relative;
   margin-bottom:15px;
 
 }
@@ -166,4 +166,12 @@ h3{
 h4{
   padding:0;
   margin:0;
+}
+
+a:visited{
+  color:#333433;
+}
+
+a{
+  text-decoration:none;
 }
