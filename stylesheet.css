@@ -174,4 +174,13 @@ a:visited{
 
 a{
   text-decoration:none;
+  color:#333433;
+}
+
+.active{
+  text-decoration:underline;
+}
+
+a:hover{
+  opacity:.7;
 }
