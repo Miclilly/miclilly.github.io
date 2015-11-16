@@ -43,7 +43,7 @@ nav {
 nav ul {
   list-style-type: none;
   display: inline-block;
-  position:relative;
+/*  position:relative; */
 
 }
 
@@ -58,7 +58,7 @@ nav ul ul {
 li {
   display:inline-block;
   margin: 45px;
-  position:relative;
+/*  position:relative; */
   margin-bottom:15px;
 
 }
@@ -96,7 +96,7 @@ nav ul ul li a {
 
 footer{
   font-size: 15px;
-  margin-left:25px;
+  margin-left:50px;
   padding-bottom: 35px;
   padding-right:28px;
   display:block;
