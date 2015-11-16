@@ -102,7 +102,6 @@ nav ul ul li a {
 
 footer{
   font-size: 15px;
-  margin-left:50px;
   padding-bottom: 35px;
   padding-right:28px;
   display:block;
@@ -194,11 +193,21 @@ a:hover{
 
 .gallery{
   margin-left:25px;
-  margin-top:15px;
+  margin-top:5px;
+  margin-bottom:15px;
   clear:both;
 }
 
 .gallery img{
   margin-left:10px;
-  margin-top:10px;
+  margin-top:5px;
+}
+
+.click{
+  font-size:75%;
+  font-style: italic;
+  margin-left:60px;
+  margin-top:35px;
+  margin-bottom:5px;
+  display:block;
 }
