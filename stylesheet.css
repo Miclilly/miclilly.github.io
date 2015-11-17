@@ -3,7 +3,7 @@ body {
   /*background-color:#f4f4f4;*/
   background-color:#fff;
   font-family: 'Roboto', "Helvetica Light",Helvetica, sans-serif;
-  margin:0;
+  margin-bottom:90px;
   color: #333433;
 }
 
@@ -98,21 +98,23 @@ footer{
   font-size: 15px;
   padding-bottom: 35px;
   padding-right:28px;
-  margin-left:30px;
-  margin-right:20px;
+  padding-left:30px;
   margin-top:25px;
   display:block;
   line-height:3em;
   clear:both;
   text-transform:uppercase;
+  position:fixed;
+  bottom:-50px;
+  width:100%;
 }
 
 .social{
   width:40px;
   display:inline-block;
-  float:right;
   padding-right: 20px;
   margin-bottom: 30px;
+  float:right;
   opacity: .8;
   -webkit-filter: grayscale(100%);
   -moz-filter:grayscale(100%);
@@ -155,6 +157,7 @@ footer{
   color:#333433;
   letter-spacing:1px;
   line-height: 2.3em;
+  margin-right:50px;
 }
 
 h3{
