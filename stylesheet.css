@@ -3,7 +3,6 @@ body {
   /*background-color:#f4f4f4;*/
   background-color:#fff;
   font-family: 'Roboto', "Helvetica Light",Helvetica, sans-serif;
-  margin-bottom:90px;
   color: #333433;
 }
 
@@ -62,8 +61,7 @@ nav ul ul {
 
 li {
   display:inline-block;
-  margin-right: 45px;
-  margin-top: 65px;
+  margin:45px;
   position:relative;
   margin-bottom:15px;
 
@@ -105,8 +103,6 @@ footer{
   line-height:3em;
   clear:both;
   text-transform:uppercase;
-  position:fixed;
-  bottom:-50px;
   width:100%;
 }
 
@@ -114,7 +110,6 @@ footer{
   width:40px;
   display:inline-block;
   padding-right: 20px;
-  margin-bottom: 30px;
   float:right;
   opacity: .8;
   -webkit-filter: grayscale(100%);
