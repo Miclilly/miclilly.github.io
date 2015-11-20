@@ -34,11 +34,9 @@ h3{
 /*Pull Down Nav*/
 nav {
   display: inline-block;
-  float:right;
   text-transform:uppercase;
   font-size: 125%;
-  margin-left:0px;
-  margin-right:25px;
+  margin-left:5px;
   padding-top:15px;
 
 }
@@ -207,4 +205,74 @@ a:hover{
   margin-top:35px;
   margin-bottom:5px;
   display:block;
+}
+
+/*Form Style*/
+form{
+  margin:auto;
+  clear:both;
+  width:622px;
+  height:520px;
+}
+
+input{
+  background-color:#fff;
+  border:solid 2px #333433;
+  color:#333433;
+  width:250px;
+  height:30px;
+  margin-bottom:15px;
+  font-size:110%;
+}
+
+.formrow{
+  width: 650px;
+}
+
+.formrow .field{
+  width: 50%;
+  float: left;
+}
+
+label{
+  text-transform:uppercase;
+}
+
+.formrow .email{
+  width: 50%;
+  float: left;
+}
+
+.emailrow{
+  width: 300px;
+}
+
+.message{
+  display:block;
+  background-color:#fff;
+  border:solid 2px #333433;
+  color:#333433;
+  width:622px;
+  height:250px;
+  clear:both;
+}
+
+.messagefield{
+  clear:both;
+}
+
+#submit{
+  display:block;
+  background-color:#fff;
+  border:solid 2px #333433;
+  height: 33px;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#333433;
+  letter-spacing:1px;
+  line-height: 2.3em;
+  margin-top:25px;
+  width:100px;
+  height:50px;
+
 }

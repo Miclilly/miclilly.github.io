@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Michelle Lilly</title>
   <link rel="stylesheet" href="stylesheet.css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header>
@@ -13,7 +13,6 @@
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      </li>
       <li>Gallery
         <ul>
           <li><a href="2015.html">2015</a></li>
@@ -25,7 +24,40 @@
         <li><a href="Contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
-</header>
+  </header>
+    <form>
+        <p>Please fill out the following form to contact</p>
+      <div class="formrow">
+        <div class="field">
+          <label for="firstname">First Name</label>
+          <input id="firstname" type="text" name="firstname">
+        </div>
+
+        <div class="field">
+          <label for="lastname">Last Name</label>
+          <input id="lastname" type="text" name="lastname">
+        </div>
+      </div>
+
+      <div class="formrow">
+        <div class="email">
+          <label for="emailaddress">Email Address</label>
+          <input class="emailrow" type="email" id="emailaddress">
+        </div>
+
+        <div class="email">
+          <label for="subject">Subject</label>
+          <input class="emailrow" type="text" id="subject">
+        </div>
+      </div>
+
+      <div class="messagefield">
+        <label for="message">Message</label>
+        <textarea class="message" id="message"></textarea>
+      </div>
+
+      <input id="submit" type="submit" value="submit">
+    </form>
 <footer>&copy; Michelle Lilly 2015
   <a class="button" href="/">Join</a>
   <a href="https://www.facebook.com/michellelillyart">
