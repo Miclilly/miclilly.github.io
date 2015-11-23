@@ -291,5 +291,19 @@ label{
   height:40px;
   font-size:small;
   float:right;
+}
+/*Blog*/
+ .blogpic{
+   width:150px;
+   margin:auto;
+   display:block;
+ }
 
+.blogspan{
+  text-transform:uppercase;
+}
+
+.blog > p{
+  margin-left: 15px;
+  margin-top:15px;
 }
