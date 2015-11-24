@@ -291,6 +291,7 @@ label{
   height:40px;
   font-size:small;
   float:right;
+  border-radius: 2px;
 }
 /*Blog*/
  .blogpic{
