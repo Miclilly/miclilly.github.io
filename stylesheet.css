@@ -24,10 +24,12 @@ h1 {
   letter-spacing: 3.5px;
   margin-right:25px;
   margin-bottom:0px;
+  font-weight:normal;
 }
 
 h2{
   text-transform:uppercase;
+  font-weight:normal;
   display:block;
   margin-left:55px;
   margin-bottom:10px;
@@ -36,11 +38,13 @@ h2{
 h3{
   margin-left:15px;
   text-transform:uppercase;
+  font-weight:normal;
 }
 
 h4{
   padding:0;
   margin:0;
+  font-weight:normal;
 }
 
 /*Pull Down Nav*/
