@@ -112,8 +112,7 @@ hr{
 }
 .urban{
  height: 40%;
- display:inline-block;
- margin-bottom:200px;
+ margin-bottom:10em;
  margin-right:3em;
 }
 
@@ -221,6 +220,22 @@ form input{
 
    .one{
      display:none;
+   }
+
+
+   .about{
+     display:flex;
+     flex-flow:column wrap;
+     justify-content:center;
+
+   }
+   .urban{
+  display:none;
+   }
+
+   .cv{
+    font-size:90%;
+    clear:right;
    }
 
 }
