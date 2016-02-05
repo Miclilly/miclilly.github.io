@@ -8,8 +8,7 @@ header{
   display:flex;
   justify-content:space-between;
   align-items:baseline;
-
-
+  margin-top:1em;
 }
 
 h1{
@@ -95,7 +94,7 @@ hr{
   justify-content:center;
   flex-flow:row wrap;
   margin:4.5em;
-  margin-top:3em;
+  margin-top:2em;
 }
 
 .gallery img{
