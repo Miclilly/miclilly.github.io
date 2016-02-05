@@ -72,6 +72,7 @@ footer{
   margin-right: 1.5em;
   margin-left: 1.5em;
   font-size: 90%;
+  align-items:baseline;
 
 }
 
@@ -106,7 +107,6 @@ hr{
   display:flex;
   justify-content:center;
   margin-top:3em;
-  margin-left:3em;
 
 
 }
@@ -150,13 +150,13 @@ form input{
 }
 
  .inputSame{
-  width: 350px;
+  width: 400px;
   height: 35px;
   font-size:70%;
 }
 
 .Message{
-  width:350px;
+  width:400px;
   height: 100px;
   border: 1.5px solid #45372e;
   display:block;
@@ -227,13 +227,18 @@ form input{
    }
 
 .urban{
+  width:300px;
+  height:250px;
+  margin:0 auto;
   margin-bottom:2em;
 }
 
-   .cv{
+ .cv{
     font-size:90%;
     clear:none;
     text-align:center;
+    margin: 1em;
    }
+
 
 }
