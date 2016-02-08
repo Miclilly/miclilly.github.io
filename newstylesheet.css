@@ -61,12 +61,14 @@ li{
   margin-top:1em;
   text-align:center;
   margin-bottom: 1em;
+  font-size:0;
 }
 
 .IndexGallery > img{
     width: 22%;
     border:.3em solid #323333;
     padding:0;
+    margin:0;
 }
 
 footer{
@@ -312,8 +314,12 @@ form input{
     display:none;
   }
 
+  .three{
+    display:none;
+  }
+
   .IndexGallery > img{
-      width: 45%;
+      width: 80%;
       padding:0;
       border: 0;
   }
