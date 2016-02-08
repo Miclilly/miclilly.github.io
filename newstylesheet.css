@@ -1,5 +1,5 @@
 body{
-  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', 'Roboto', sans-serif;
   color: #323333;
   margin: 0;
 }
@@ -24,9 +24,9 @@ h1{
   letter-spacing:.2em;
   margin-bottom:0;
   padding-bottom: 0;
-  margin-left: 2.25em;
+  margin-left: 2em;
   font-style:normal;
-  opacity:.7;
+  opacity:.6;
 }
 
 a{
@@ -58,13 +58,13 @@ li{
 
 .IndexGallery{
   width: 100%;
-  margin-right: 1.5em;
+  margin-top:1em;
   text-align:center;
   margin-bottom: 1em;
 }
 
 .IndexGallery > img{
-    width: 21%;
+    width: 22%;
     border:.3em solid #323333;
     padding:0;
 }
@@ -100,13 +100,15 @@ footer{
   display:flex;
   justify-content:center;
   flex-flow:row wrap;
-  margin:4.5em;
-  margin-top:2em;
+  margin:5em;
+  margin-top:1em;
+  margin-bottom: 1em;
 }
 
 .gallery img{
-  margin-left:.75em;
-  margin-top:.75em;
+  margin-left:.5em;
+  margin-bottom:.5em;
+  border: solid 1px #323333;
 }
 
 .about{
@@ -116,18 +118,23 @@ footer{
 }
 
 .urban{
-  height: 300px;
+  height: 450px;
  margin-bottom:10em;
  margin-right:3em;
 }
 
 .cv{
  font-size:90%;
- margin-left: 2em;
+ margin-right:2em;
 }
 
 .cv>p{
      margin-top:0;
+}
+
+h3{
+  letter-spacing: .15em;
+  font-family:'Roboto', sans-serif;
 }
 /*---------Form Style*---------*/
 #formImage{
@@ -265,13 +272,14 @@ form input{
    }
 
    .IndexGallery > img{
-       width: 30%;
+       width: 32%;
        border:.1em solid #323333;
        padding:0;
    }
 
    .gallery > img{
      margin:0 auto;
+    width:200px;
    }
 
    footer{
@@ -289,18 +297,18 @@ form input{
 
 @media screen and (max-width: 500px){
 
-  .gallery >img{
-    width:200px;
-  }
-
   .two{
     display:none;
   }
 
   .IndexGallery > img{
-      width: 40%;
+      width: 45%;
       border:.15em solid #323333;
       padding:0;
+  }
+
+  h1{
+    font-size:150%;
   }
 
 }
