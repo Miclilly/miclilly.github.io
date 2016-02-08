@@ -281,6 +281,7 @@ form input{
    .gallery{
      display:flex;
      justify-content:center;
+     margin: 0;
    }
 
    .gallery > img{
