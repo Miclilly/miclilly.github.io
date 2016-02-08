@@ -322,4 +322,15 @@ form input{
     font-size:150%;
   }
 
+  .gallery{
+    display:flex;
+    justify-content:center;
+    margin: 0;
+  }
+
+  .gallery > img{
+    margin:0 auto;
+   width:200px;
+  }
+
 }
