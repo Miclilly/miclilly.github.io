@@ -279,9 +279,8 @@ form input{
    }
 
    .gallery{
-     display:flex;
-     flex-flow:column wrap;
-     align-items:center;
+     display:block;
+     text-align:center;
    }
 
    .gallery > img{
