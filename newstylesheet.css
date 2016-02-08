@@ -54,7 +54,6 @@ li{
   margin-bottom: 0;
   letter-spacing: .15em;
   opacity: .8;
-
 }
 
 .IndexGallery{
@@ -62,39 +61,39 @@ li{
   margin-right: 1.5em;
   text-align:center;
   margin-bottom: 1em;
-
 }
 
 .IndexGallery > img{
     width: 21%;
     border:.3em solid #323333;
     padding:0;
-
 }
 
 footer{
   display:flex;
-  justify-content:space-between;
+  flex-flow: row wrap-reverse;
+  justify-content:center;
   margin: .75em;
   margin-right: 1.5em;
   margin-left: 1.5em;
-  font-size: 90%;
-  align-items:baseline;
+  font-size: 80%;
+  align-items:center;
+}
 
+.socialicons img{
+  margin: .3em;
+  opacity: .5;
+  width:20px;
 }
 
 .socialicons{
-  margin: .2em;
-  opacity: .7;
+  width:100%;
+  display:flex;
+  justify-content:center;
 }
 
 .social{
-  width:30%;
   margin:.2em;
-}
-
-hr{
-  width:75%;
 }
 
 .gallery{
@@ -114,9 +113,8 @@ hr{
   display:flex;
   justify-content:center;
   margin-top:3em;
-
-
 }
+
 .urban{
   height: 300px;
  margin-bottom:10em;
@@ -131,7 +129,7 @@ hr{
 .cv>p{
      margin-top:0;
 }
-/*Form Style*/
+/*---------Form Style*---------*/
 #formImage{
   height:500px;
   margin-right: 1em;
@@ -226,10 +224,9 @@ form input{
     margin-right: 1.25em;
   }
 
-
-.menu{
-  display:none;
-}
+  .menu{
+    display:none;
+  }
 
    li{
      margin:1.25em;
@@ -253,28 +250,57 @@ form input{
      justify-content:center;
    }
 
-.urban{
-  width:300px;
-  height:250px;
-  margin:0 auto;
-  margin-bottom:2em;
-}
+   .urban{
+     width:300px;
+     height:250px;
+     margin:0 auto;
+     margin-bottom:2em;
+   }
 
- .cv{
+  .cv{
     font-size:90%;
     clear:none;
     text-align:center;
     margin: 1em;
    }
+
+   .IndexGallery > img{
+       width: 30%;
+       border:.1em solid #323333;
+       padding:0;
+   }
+
+   .gallery > img{
+     margin:0 auto;
+   }
+
+   footer{
+     display:flex;
+     justify-content:center;
+     flex-flow: row wrap-reverse;
+     font-size:70%;
+   }
+
+   .socialicons{
+     display:flex;
+     justify-content:center;
+   }
 }
 
 @media screen and (max-width: 500px){
-  h1{
-    font-size: 120%;
-  }
 
   .gallery >img{
     width:200px;
-    margin:0 auto;
   }
+
+  .two{
+    display:none;
+  }
+
+  .IndexGallery > img{
+      width: 40%;
+      border:.15em solid #323333;
+      padding:0;
+  }
+
 }
