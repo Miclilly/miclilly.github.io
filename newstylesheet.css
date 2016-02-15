@@ -351,6 +351,17 @@ form input{
    .urban{
      display:none;
    }
+
+   .aboutimage{
+     display:none;
+   }
+
+   .statement{
+     font-size:100%;
+     clear:none;
+     text-align:center;
+     margin: 2em;
+   }
 }
 
 @media screen and (max-width: 500px){
