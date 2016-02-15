@@ -315,6 +315,7 @@ form input{
     clear:none;
     text-align:center;
     margin: 1em;
+    margin-top:0;
    }
 
    .IndexGallery > img{
