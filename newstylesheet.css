@@ -160,6 +160,20 @@ h3{
   margin-bottom:10em;
 }
 /*---------Form Style*---------*/
+
+.contact{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  margin-top:1em;
+  margin-bottom:2em;
+}
+
+.contact > img{
+  height:400px;
+  margin-right:2em;
+
+}
 #formImage{
   height:500px;
   margin-right: 1em;
