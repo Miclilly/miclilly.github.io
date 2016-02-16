@@ -366,8 +366,7 @@ form input{
    }
 
    .aboutimage{
-     height:200px;
-     width:300px;
+     display:none;
    }
 
    .statement{
