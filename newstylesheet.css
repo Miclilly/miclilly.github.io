@@ -48,7 +48,7 @@ a:hover{
 
 ul{
   list-style-type:none;
-  margin-right: 5em;
+  margin-right: 4em;
 }
 
 li{
@@ -233,8 +233,21 @@ form input{
 .cv{
   margin:1em;
 }
+
+.statement{
+  display:flex;
+  flex-flow:column-reverse wrap;
 }
-@media screen and (max-width: 850px){
+
+.aboutimage{
+  height:300px;
+  width:400px;
+  margin-bottom:1em;
+  margin:0 auto;
+}
+
+}
+@media screen and (max-width: 860px){
 
     header{
     margin:auto;
@@ -353,7 +366,8 @@ form input{
    }
 
    .aboutimage{
-     display:none;
+     height:200px;
+     width:300px;
    }
 
    .statement{
