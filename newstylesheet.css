@@ -20,12 +20,11 @@ header{
 }
 
 h1{
-  font-size: 175%;
-  letter-spacing:.2em;
+  font-size: 165%;
+  letter-spacing:.35em;
   margin-bottom:0;
   padding-bottom: 0;
   margin-left: 1.5em;
-  font-style:normal;
   opacity:.6;
 }
 
@@ -120,7 +119,7 @@ footer{
 .about{
   display:flex;
   justify-content:center;
-  margin-top:3em;
+  margin-top:2em;
 }
 
 .urban{
@@ -140,15 +139,14 @@ footer{
 
 h3{
   letter-spacing: .15em;
-  font-family:'Roboto', sans-serif;
 }
 
 .statement{
   display:flex;
   justify-content:center;
   flex-direction:row-reverse;
-  text-align:center;
-  margin-top:2em;
+  text-align:left;
+  margin-top:1em;
   margin-left: 10em;
   margin-right:10em;
 }
@@ -158,6 +156,7 @@ h3{
   height:300px;
   margin-right:2em;
   margin-bottom:10em;
+  margin-top:1em;
 }
 /*---------Form Style*---------*/
 
@@ -235,7 +234,7 @@ form input{
 }
 
 /*--------------MEDIA----------------*/
-@media screen and (max-width:950px){
+@media screen and (max-width:960px){
   li{
     margin-left:1em;
   }
@@ -259,7 +258,6 @@ form input{
   margin-bottom:1em;
   margin:0 auto;
 }
-
 }
 @media screen and (max-width: 860px){
 
@@ -292,7 +290,7 @@ form input{
   }
 
   h1{
-    font-size:170%;
+    font-size:160%;
     margin-top:.5em;
     display:block;
     margin-left: 1.25em;
@@ -421,5 +419,4 @@ form input{
     margin:0 auto;
    width:200px;
   }
-
 }
