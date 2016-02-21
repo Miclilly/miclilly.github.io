@@ -143,21 +143,22 @@ h3{
 }
 
 .statement{
-  display:flex;
-  justify-content:center;
-  flex-direction:row-reverse;
+  display:inline-block;
+  width:960px;
+  margin:0 auto;
   text-align:left;
   margin-top:1em;
   margin-left: 10em;
   margin-right:10em;
 }
 
-
 .aboutimage{
   height:300px;
   margin-right:2em;
   margin-bottom:10em;
   margin-top:1em;
+  float:left;
+  display:inline-block;
 }
 /*---------Form Style*---------*/
 
