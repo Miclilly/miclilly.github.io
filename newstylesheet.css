@@ -178,8 +178,8 @@ h3{
 .contact > img{
   height:400px;
   margin-right:2em;
-
 }
+
 #formImage{
   height:500px;
   margin-right: 1em;
@@ -394,6 +394,11 @@ form input{
      clear:none;
      text-align:center;
      margin: 2em;
+   }
+
+   .contact > img{
+     height:400px;
+     margin:0 auto;
    }
 }
 
