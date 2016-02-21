@@ -155,6 +155,7 @@ h3{
 
 .aboutimage{
   height:300px;
+  width:400px;
   margin-right:2em;
   margin-bottom:10em;
   margin-top:1em;
@@ -378,7 +379,8 @@ form input{
    }
 
    .aboutimage{
-     display:none;
+     height:200px;
+     width:300px;
    }
 
    .statement{
