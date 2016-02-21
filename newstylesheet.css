@@ -20,11 +20,11 @@ header{
 }
 
 h1{
-  font-size: 165%;
+  font-size: 160%;
   letter-spacing:.35em;
   margin-bottom:0;
   padding-bottom: 0;
-  margin-left: 1.5em;
+  margin-left: 1.25em;
   opacity:.6;
 }
 
@@ -143,22 +143,21 @@ h3{
 }
 
 .statement{
-  display:inline-block;
-  width:960px;
-  margin:0 auto;
+  display:flex;
+  justify-content:center;
+  flex-direction:row-reverse;
   text-align:left;
   margin-top:1em;
   margin-left: 10em;
   margin-right:10em;
 }
 
+
 .aboutimage{
   height:300px;
   margin-right:2em;
   margin-bottom:10em;
   margin-top:1em;
-  float:left;
-  display:inline-block;
 }
 /*---------Form Style*---------*/
 
