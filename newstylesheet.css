@@ -162,10 +162,9 @@ h3{
 /*---------Form Style*---------*/
 
 .contact{
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:center;
-  margin-top:1em;
+  display:block;
+  text-align:center;
+  margin-top:2em;
   margin-bottom:2em;
 }
 
