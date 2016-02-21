@@ -427,4 +427,8 @@ form input{
     margin:0 auto;
    width:200px;
   }
+
+  .aboutimage{
+    display:none;
+  }
 }
