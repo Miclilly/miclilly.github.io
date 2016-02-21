@@ -151,6 +151,13 @@ h3{
   margin-right:10em;
 }
 
+.statement > p{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align:left;
+  margin-bottom:2em;
+}
+
 
 .aboutimage{
   height:300px;
